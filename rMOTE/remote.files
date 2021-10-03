@@ -1,0 +1,26 @@
+ git clone https://github.com/sulaim09/sulaim09.git
+  118  git clone git@github.com:sulaim09/sulaim09.git
+ 
+  120  cd sulaim09/
+ 
+  122  mkdir repo,dir
+ 
+  124  git status
+  125  git remote add origin git@github.com:sulaim09/sulaim09.git
+  126  git branch -M main
+  127  git push -u origin main
+  
+  129  cd repo,dir/
+  
+  131  touch  files
+  
+  133  git status
+
+  135* git
+  136  git add files
+  
+  138  git status
+  139  git commit -m "practie fils"
+  140  git branch -M main
+  141  git push -u origin main
+  142  git status
